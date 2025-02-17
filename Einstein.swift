@@ -26,7 +26,7 @@ print("Welcome to the Einstein equation program!")
 
 // Loop until user input is valid
 repeat {
-    
+
     // Ask the user to enter the object's mass'
     print("Enter the mass of your object (kg): ")
 
