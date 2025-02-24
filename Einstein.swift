@@ -8,7 +8,7 @@
 //
 // The Einstein program asks the user to enter the mass of an object.
 // It then sees how much energy could be released from that object.
-// It also includes a loop, try .. catch, and is rounded to 3 decimal places.
+// It also includes a loop and try .. catch.
 
 // Import foundation library
 import Foundation
@@ -42,7 +42,7 @@ repeat {
                 // Calculate the energy
                 let objEnergy = objMass * pow(speedOfLight, 2)
 
-                // Display the energy, rounded to 3 decimal places
+                // Display the energy, in scientific notation
                 print(objEnergy, "J of energy can be released from your object.")
 
                 // Break from the loop
