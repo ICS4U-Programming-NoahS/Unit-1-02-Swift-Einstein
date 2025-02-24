@@ -43,7 +43,7 @@ repeat {
                 let objEnergy = objMass * pow(speedOfLight, 2)
 
                 // Display the energy, rounded to 3 decimal places
-                print("\(String(format: "%.3f", objEnergy))J of energy can be released from your object.")
+                print(objEnergy, "J of energy can be released from your object.")
 
                 // Break from the loop
                 break
